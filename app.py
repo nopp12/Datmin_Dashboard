@@ -14,10 +14,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 # Custom CSS untuk desain 
 st.markdown("""
-    <style>
+     <style>
         /* Sidebar styling */
         [data-testid="stSidebar"] {
-            background-color: #2D55B4; 
+            background-color: #2D55B4; /* Darker background for better contrast */
             color: white;
         }
         [data-testid="stSidebar"] .css-1v3fvcr {
@@ -27,52 +27,52 @@ st.markdown("""
         }
         [data-testid="stSidebar"] a {
             text-decoration: none;
-            color: #63B3ED; 
+            color: #63B3ED; /* Light blue links */
         }
         [data-testid="stSidebar"] a:hover {
-            color: #3182CE; 
+            color: #3182CE; /* Darker blue on hover */
         }
 
         /* Main page styling */
         .block-container {
             padding: 2rem;
-            background-color: #f2f4f7; 
+            background-color: #f2f4f7; /* Light gray background */
         }
 
         /* Headings and titles */
         h1, h2, h3 {
-            color: #808080; 
+            color: #808080; /* Gray color for headings */
         }
 
         /* Text */
         .stMarkdown p, .stWrite {
-            color: #808080; 
+            color: #808080; /* Gray color for paragraph text */
         }
 
         /* Labels and widget text */
         .stMultiSelect label, .stSlider label, .stSelectbox label, .stTextInput label, .stFileUploader label {
-            color: #808080; 
+            color: #808080; /* Gray color for widget labels */
         }
 
         /* Dataframe styling */
         .css-1v2lvtn {
             font-size: 16px;
-            color: #808080; 
+            color: #808080; /* Gray color for dataframe text */
         }
 
         /* Warning messages styling */
         .stWarning {
-            color: #808080; 
+            color: #808080; /* Gray color for warning messages */
         }
 
         /* Button styling */
         button[data-baseweb="button"] {
-            background-color: #3182CE; 
+            background-color: #3182CE; /* Blue buttons */
             color: white;
             font-weight: bold;
         }
         button[data-baseweb="button"]:hover {
-            background-color: #2B6CB0; 
+            background-color: #2B6CB0; /* Darker blue on hover */
         }
     </style>
 """, unsafe_allow_html=True)
